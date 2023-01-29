@@ -1,0 +1,172 @@
+*{margin: 0;
+  padding: 0;
+}
+  @font-face {
+  font-family: Ari;
+  src: url('assets/CoffeaT.ttf');
+}
+@font-face{
+  font-family:'edge';
+  src: url('assets/Edge.ttf');
+}
+.bwh{
+  background-color: white;
+  margin-top: -5px;
+}
+.about{
+  font-family: Ari;
+  font-size: 1.1rem;
+}
+body{
+  background-color: black;
+}
+.kepala{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.kepala img{
+  width: 40%;
+  height: 40%;
+  border-radius: 40px;
+}
+
+.content .kepala #wahyu{
+  margin-top: 1px;
+  text-align: center;
+  font-family: Ari;
+  font-size: 2rem;
+}
+
+.btn button{
+  margin-top: 3px;
+  width: 15%;
+  height: 30px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: progress;
+  color: pink;
+  float: right;
+  border-radius: 5px;
+}
+.head{
+  box-shadow: 0 0 5px;
+  background: linear-gradient(to top, #009bff, #0b90b1);
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+.logo{
+  font-family: edge;
+  margin-bottom: 3px;
+  font-size: 30px;
+  color: white;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+  animation-name: wahyu;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@Keyframes wahyu{
+  0%,100%{}
+  50%{}
+  
+}
+
+.navbar{
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+  display: none;
+}
+
+.navbar ul li{
+  display: inline-block;
+  line-height: 15px;
+  padding: 0 5px;
+  list-style: none;
+}
+.navbar ul li a{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: Arial;
+}
+.navbar ul{
+  display: block;
+}
+.navbar ul li a:hover{
+  background-color: lightblue;
+  display: block;
+}
+
+.baris3{
+  align-content: center;
+  text-align: center;
+  background-color: black;
+  width: 60%;
+  height: 4px;
+  margin-top: 4px;
+  margin-left: 9px;
+  border-radius: 5px;
+  
+}
+.baris2{
+  align-content: center;
+  text-align: center;
+  background-color: black;
+  width: 60%;
+  height: 4px;
+  margin-top: 4px;
+  margin-left: 9px;
+  border-radius: 5px;
+
+}
+.baris{
+  align-content: center;
+  background-color: black;
+  width: 60%;
+  height: 4px;
+  margin-top: -2px;
+  margin-left: 9px;
+  border-radius: 5px;
+}
+@media screen and (min-width:768px){
+  .logo a{
+    font-size: 5rem;
+  }
+  .btn button{
+
+    display: none;
+
+  }
+  .baris{
+    width: 82%;
+  }
+  .baris2{
+    width: 82%;
+  }
+.baris3{
+    width: 82%;
+  }
+  .head{
+    padding: 15px
+  }
+  .content .kepala img{
+    width: 30%;
+    height: 30%;
+  }
+  .contain .kepala #wahyu{
+    font-size: 7rem;
+  }
+  .about{
+    font-size: 3rem;
+  }
+  .bwh h2{
+    font-size: 4rem;
+  }
+}
